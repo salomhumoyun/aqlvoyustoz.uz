@@ -9,7 +9,7 @@ api_key = "AIzaSyAregfoifufu0owMdi05ysRg2IXaaHpEk4"
 genai.configure(api_key=api_key)
 
 # Modelni ishga tushirish
-model = genai.GenerativeModel('gemini-pro')
+model = genai.GenerativeModel('gemini-1.5-flash')
 
 # Chat tarixini saqlash uchun
 if "chat" not in st.session_state:
